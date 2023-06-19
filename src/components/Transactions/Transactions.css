@@ -1,0 +1,43 @@
+/* Стилі компоненту таблиці транзакцій */
+.transaction-history {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-right: 30px;
+  border: 5px solid #fff;
+  border-collapse: collapse;
+  outline: 3px solid #d7d7d7;
+  font-size: 15px;
+}
+.transaction-history th {
+  padding: 7px;
+
+  background: #d7d7d7;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #d7d7d7;
+}
+.transaction-history td {
+  width: 100px;
+  padding: 7px;
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 15px;
+}
+.transaction-history tbody tr:nth-child(even) {
+  background: #efeeee !important;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

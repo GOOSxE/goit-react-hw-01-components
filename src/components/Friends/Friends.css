@@ -1,0 +1,31 @@
+/* Стилі компоненту списку друзів  */
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 170px;
+}
+.friend-list__item {
+  display: flex;
+  gap: 5%;
+}
+.online-status,
+.offline-status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+  border-radius: 50%;
+  border: 1px solid #161414;
+}
+.online-status {
+  background-color: #30ea30;
+}
+.offline-status {
+  background-color: #f73131;
+}
+.user__name {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.14;
+}

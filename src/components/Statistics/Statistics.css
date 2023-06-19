@@ -1,0 +1,27 @@
+/* Стилі компонентка статистики */
+.statistics {
+  display: block;
+  width: 230px;
+  padding: 10px 5px 10px;
+  margin-right: 30px;
+}
+.statistics__title {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.18;
+}
+.statistics__stat-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.stat-item__label,
+.stat-item__percentage {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.14;
+}
