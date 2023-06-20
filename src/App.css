@@ -4,8 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 320px;
-  padding: 10px;
-  padding-top: 26px;
-  text-align: center;
+  padding: 26px 10px 20px;
   margin: 0 auto;
+  text-align: center;
 }
