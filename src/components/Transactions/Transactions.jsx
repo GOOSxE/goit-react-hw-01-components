@@ -1,9 +1,9 @@
-import './Transactions.css';
 import propTypes from 'prop-types';
+import css from './Transactions.module.css';
 // ? // Компонент таблиці транзакцій ;
 export const TransactionHistory = ({ items }) => {
   return (
-    <table className="transaction-history">
+    <table className={css['transaction-history__table']}>
       <thead>
         <tr>
           <th>Type</th>

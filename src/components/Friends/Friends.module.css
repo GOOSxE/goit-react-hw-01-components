@@ -1,16 +1,18 @@
 /* Стилі компоненту списку друзів  */
-.friend-list {
+.friends-list {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 15px;
-  width: 170px;
+  padding: 15px 30px 15px;
+  background-color: #f3f4f8;
+  border: 1px solid black;
 }
-.friend-list__item {
+.friends-list__item {
   display: flex;
   gap: 5%;
 }
-.online-status,
-.offline-status {
+.friends__status {
   display: block;
   width: 15px;
   height: 15px;
@@ -19,13 +21,17 @@
   border: 1px solid #161414;
 }
 .online-status {
+  composes: friends__status;
   background-color: #30ea30;
 }
 .offline-status {
+  composes: friends__status;
   background-color: #f73131;
 }
-.user__name {
+.friends__name {
+  margin: auto 0;
+  text-align: center;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.14;
 }

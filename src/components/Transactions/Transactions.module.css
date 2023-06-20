@@ -1,0 +1,46 @@
+/* Стилі компоненту таблиці транзакцій */
+.transaction-history__table {
+  display: block;
+  max-height: 480px;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-size: 15px;
+
+  border: 5px solid #f3f4f8;
+  border-collapse: collapse;
+  outline: 1px solid #000000;
+}
+.transaction-history__table th {
+  padding: 7px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+
+  border: none;
+  background-color: #e8e8e8;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #e8e8e8;
+}
+.transaction-history__table td {
+  width: 100px;
+  padding: 7px;
+
+  font-size: 16px;
+
+  border: none;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.transaction-history__table tbody tr:nth-child(even) {
+  background: #efeeee !important;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+}

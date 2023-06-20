@@ -1,0 +1,50 @@
+/* Стилі компоненту профілю */
+.profile {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  padding: 30px 20px 20px;
+  margin-bottom: 15px;
+
+  background-color: #f3f4f8;
+  border: 1px solid black;
+}
+.description__avatar {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+
+  background-color: #aec1ea;
+}
+.description__name {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+}
+.description__tag {
+  margin-bottom: 14px;
+
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.14;
+
+  color: #161414;
+}
+.description__location {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14;
+}
+.profile__stats {
+  max-width: 150px;
+  margin: 0 auto;
+}
+.stats__item {
+  display: block;
+}
+.stats__item:not(:last-child) {
+  margin-bottom: 3px;
+}
