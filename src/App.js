@@ -21,7 +21,7 @@ function App() {
       >
         {/* <div>chilfren</div> */}
       </Profile>
-      <Statistics title={'UPLOAD STATS'} stats={statistics}></Statistics>
+      <Statistics title={'Statistics'} stats={statistics}></Statistics>
       <TransactionHistory items={transactionsData}></TransactionHistory>
       <FriendList friends={friendsData}></FriendList>
     </div>
